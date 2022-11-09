@@ -1,0 +1,31 @@
+#typing {
+ width: auto;
+ color: white;
+ /*float: left;*/
+ font-size: 35px;
+ /*padding: 10px;*/
+ overflow: hidden;
+ white-space: nowrap;
+ animation: typing 7s steps(24) 1s infinite;
+ }
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+   to {
+      width: 460px;
+   }
+}
+
+.card-style {
+  background-color: #B2B2B2;
+  color: black;
+  transition: .2s;
+}
+.card-style:hover {
+  box-shadow: 0 0 20px black;
+  margin-right: 20px;
+}
+
+.barang {background-color: #B2B2B2;}
