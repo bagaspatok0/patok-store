@@ -1,3 +1,7 @@
 function patokalert () {
-	alert('Maaf Patok Store masih belum berfungsi!');
+	confirm('Maaf Patok Store masih belum berfungsi!');
+};
+
+function order () {
+	confirm('Error');
 };
